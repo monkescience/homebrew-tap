@@ -3,7 +3,7 @@ cask "yeet" do
   name "yeet"
   desc "Automate releases based on conventional commits"
   homepage "https://github.com/monkescience/yeet"
-  version "0.4.6"
+  version "0.4.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "yeet" do
   on_macos do
     on_intel do
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_darwin_amd64.tar.gz"
-      sha256 "a8fae0946f3fdc36cf5f22cbb25d5ec95f9c0b39261c44f4f26ba1f3f9978e27"
+      sha256 "b7f0d9d48546d41e1893cec565bf335a184ce0a9a14f2dccc0c8e73de7670c5a"
     end
     on_arm do
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_darwin_arm64.tar.gz"
-      sha256 "6a5b6baafe323fab042e7379b0c093679390c05d527377ab0921999a9866f2a7"
+      sha256 "1c552fcd84b6d45078f0a75fdf5472ff56fa9b7d1a04afc6bcf5fdc275a3b0d2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_linux_amd64.tar.gz"
-      sha256 "603a05da0a7c2e40f9a2ad36560d877ef33f6ba1ef93a11e8590d40e645c1cde"
+      sha256 "059ec7abcd7e8737ce8117ae3e440fce24eb4614f1f5bf84f960b692efbc207d"
     end
     on_arm do
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_linux_arm64.tar.gz"
-      sha256 "2e9b1af9ef9bd4a94d0b151dc91a7728d322b97189aa10133e69e0ed3aecd6c8"
+      sha256 "45b25555ad23a55536b997d56e40fa7a3e88eb056ae67c6d35f621581e866f2e"
     end
   end
 
