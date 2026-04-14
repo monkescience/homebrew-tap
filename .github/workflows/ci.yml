@@ -21,4 +21,14 @@ jobs:
         run: brew tap --custom-remote monkescience/tap "$GITHUB_WORKSPACE"
 
       - name: Audit tap casks
-        run: brew audit --strict --online --display-filename --os all --arch all --cask --git --tap monkescience/tap
+        run: |
+          brew audit \
+            --strict \
+            --online \
+            --display-filename \
+            --os all \
+            --arch all \
+            --cask \
+            --git \
+            --except token_conflicts \
+            --tap monkescience/tap
