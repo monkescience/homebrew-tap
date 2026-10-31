@@ -6,25 +6,25 @@ cask "yeet" do
     end
   end
 
-  version "0.17.4"
+  version "0.18.0"
 
   on_macos do
     on_arm do
-      sha256 "eac286df05a093a692842a084fe24917fd8741409608b8ef92d192b1ceb2f42c"
+      sha256 "d1b889fec02cc3ed8e9626b9000ee79c9911d747b50df39b10abcdc479f52bbf"
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5f12717c1830cea72de991d284ac911a867b8015afecc40ff996a344f7318d81"
+      sha256 "040b12fa8d1347a421d1ae85e33e8ac2c43c0598014828d8fa7753a5648e8f9f"
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b042baea421592d8bb8ae3f3afcc79e46c07c723a5a079a2c987bdf77bc0ebb3"
+      sha256 "aa5ccd2682977babc6e4daf2ecb7216bf54cc191799198dcde5443594dfb0693"
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "dd18765360b8721ce0d63e9fb62dbd1062b5f54e917cbfccc46bb495ebbb2e55"
+      sha256 "cc0945adbe30ed529c125b7fd9c32fcac7c6d49c51c0eab7710184bee6479403"
       url "https://github.com/monkescience/yeet/releases/download/v#{version}/yeet_linux_amd64.tar.gz"
     end
   end
